@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.count-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  width: 400px;
+  height: 350px;
+  border-radius: 10px;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.count-value {
+  color: #0f172a;
+  font-size: 30px;
+}
+
+.number-category {
+  color: #334155;
+  font-size: 20px;
+}
+.button {
+  color: #1e293b;
+  font-size: 15px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 30px;
+}
+
+.note {
+  color: #334155;
+  font-size: 15px;
+}
